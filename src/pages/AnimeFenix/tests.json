@@ -1,0 +1,30 @@
+{
+  "title": "AnimeFenix",
+  "url": "https://www.animefenix.com",
+  "testCases": [
+    {
+      "url": "https://www.animefenix.com/kage-no-jitsuryokusha-ni-naritakute",
+      "expected": {
+        "sync": false,
+        "title": "Kage no Jitsuryokusha ni Naritakute!",
+        "identifier": "kage-no-jitsuryokusha-ni-naritakute",
+        "uiSelector": true,
+        "epList": {
+          "7": "https://www.animefenix.com/ver/kage-no-jitsuryokusha-ni-naritakute-7"
+        }
+      }
+    },
+    {
+      "url": "https://www.animefenix.com/ver/kage-no-jitsuryokusha-ni-naritakute-3",
+      "expected": {
+        "sync": true,
+        "title": "Kage no Jitsuryokusha ni Naritakute!",
+        "identifier": "kage-no-jitsuryokusha-ni-naritakute",
+        "overviewUrl": "https://www.animefenix.com/kage-no-jitsuryokusha-ni-naritakute",
+        "nextEpUrl": "https://animeflv.net/ver/no-game-no-life-4",
+        "episode": 3,
+        "uiSelector": true
+      }
+    }
+  ]
+}
